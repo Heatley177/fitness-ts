@@ -6,6 +6,19 @@ export default {
   ],
   theme: {
     extend: {
+      // // WORKING CHANGES
+      // colors: {
+      //   "gray-20": "#F8F4EB", // Home Background
+      //   "gray-50": "#EFE6E6", // ?
+      //   "gray-100": "#DFCCCC",//benefits borders
+      //   "gray-500": "#EBEBEB", //Main Text 
+      //   "primary-100": "#000", // Nav and sections
+      //   "primary-300": "#FFA6A3", // Name, email, message box
+      //   "primary-500": "#FF6B66", //Logo Color
+      //   "secondary-400": "#FFCD58", // ?
+      //   "secondary-500": "#FFC123", // Buttons
+      // },
+      // ORIGINAL BELOW
       colors: {
         "gray-20": "#F8F4EB",
         "gray-50": "#EFE6E6",
