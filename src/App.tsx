@@ -6,6 +6,7 @@ import { SelectedPage } from '@/shared/types';
 import Benefits from "./scenes/benefits";
 import OurClasses from "@/scenes/ourClasses";
 import Footer from "@/scenes/footer";
+import Exercises from "./scenes/exercises";
 
 
 
@@ -38,6 +39,7 @@ function App() {
       <Benefits setSelectedPage={setSelectedPage} />
       <OurClasses setSelectedPage={setSelectedPage} />
       <ContactUs setSelectedPage={setSelectedPage} />
+      <Exercises setSelectedPage={setSelectedPage} />
       <Footer />
     </div>
   )
