@@ -7,11 +7,6 @@ type Props = {
     altImage: string;
 };
 
-    // FOR IMAGES TO BE IN B&W FOR FUTURE USE
-// const blackAndWhiteStyle = {
-//         filter: 'grayscale(100%)',
-//     };
-
 const Exercise = ({ name, description, image, altImage }: Props) => {
     
     const [isImage1Visible, setIsImage1Visible] = useState(true);
@@ -38,6 +33,7 @@ const Exercise = ({ name, description, image, altImage }: Props) => {
     const imageStyles = {
         transition: 'opacity 0.1s', // Adjust the speed (1s is 1 second)
         opacity: isImage1Visible ? 1 : 1,
+        filter: 'grayscale(100%) contrast(300%)', //B&W styling
     };
 
   return (
